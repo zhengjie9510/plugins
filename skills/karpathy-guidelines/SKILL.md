@@ -1,70 +1,74 @@
 ---
 name: karpathy-guidelines
-description: Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
+description: 编写、审查或重构代码时使用的行为准则，帮助减少大语言模型常见的编码失误，避免过度设计，将改动限制在必要范围内，明确假设，并制定可验证的验收标准。
 license: MIT
 metadata:
   author: forrestchang
+  modified_by: zhengjie9510
   source: https://github.com/multica-ai/andrej-karpathy-skills
 ---
 
-# Karpathy Guidelines
+# Karpathy 编码准则
 
-Behavioral guidelines to reduce common LLM coding mistakes, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls.
+这些准则旨在减少大语言模型常见的编码失误，源自 [Andrej Karpathy 对大语言模型编码陷阱的观察](https://x.com/karpathy/status/2015883857489522876)。
 
-**Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.
+**取舍。** 这些准则更重视谨慎。遇到简单任务时，按实际情况灵活运用。
 
-## 1. Think Before Coding
+## 1. 想清楚再写代码
 
-**Don't assume. Don't hide confusion. Surface tradeoffs.**
+**避免擅自假设，坦诚说明疑点，并讲清取舍。**
 
-Before implementing:
-- State your assumptions explicitly. If uncertain, ask.
-- If multiple interpretations exist, present them - don't pick silently.
-- If a simpler approach exists, say so. Push back when warranted.
-- If something is unclear, stop. Name what's confusing. Ask.
+开始实现前，先确认以下几点。
 
-## 2. Simplicity First
+- 明确说明你的假设。有疑问就提问。
+- 如果需求有多种合理解读，把它们列出来，避免擅自选定一种。
+- 如果有更简单的做法，直接指出。必要时提出异议并说明理由。
+- 如果还有不清楚的地方，先暂停实现，指出具体疑点并请求澄清。
 
-**Minimum code that solves the problem. Nothing speculative.**
+## 2. 简单优先
 
-- No features beyond what was asked.
-- No abstractions for single-use code.
-- No "flexibility" or "configurability" that wasn't requested.
-- No error handling for impossible scenarios.
-- If you write 200 lines and it could be 50, rewrite it.
+**代码首先服务于人类阅读，而不是只服务于机器执行。** 优先使用直接、清晰的实现，避免晦涩的写法、过度抽象和隐藏逻辑。
 
-Ask yourself: "Would a senior engineer say this is overcomplicated?" If yes, simplify.
+用足以解决实际问题的代码，避免为假想需求做设计。
 
-## 3. Surgical Changes
+- 只实现用户要求的功能。
+- 避免为只用一次的代码引入抽象。
+- 避免引入用户未要求的灵活性或可配置性。
+- 无需为不可能发生的情况编写错误处理。
+- 如果 50 行能同样清楚地解决原本需要 200 行的问题，就精简。
 
-**Touch only what you must. Clean up only your own mess.**
+问问自己：“有经验的工程师会觉得这太复杂吗？”如果会，就简化。
 
-When editing existing code:
-- Don't "improve" adjacent code, comments, or formatting.
-- Don't refactor things that aren't broken.
-- Match existing style, even if you'd do it differently.
-- If you notice unrelated dead code, mention it - don't delete it.
+## 3. 只做必要的改动
 
-When your changes create orphans:
-- Remove imports/variables/functions that YOUR changes made unused.
-- Don't remove pre-existing dead code unless asked.
+**只修改必要的部分，只清理本次改动留下的问题。**
 
-The test: Every changed line should trace directly to the user's request.
+修改现有代码时，遵循以下原则。
 
-## 4. Goal-Driven Execution
+- 避免顺手改动周边代码、注释或格式。
+- 避免重构原本正常工作的部分。
+- 沿用现有风格，即使你平时会采用不同的写法。
+- 如果发现与任务无关的无用代码，可以指出，留待用户决定是否删除。
 
-**Define success criteria. Loop until verified.**
+如果本次改动使某些导入、变量或函数不再使用，就将它们移除。已有的无用代码只在用户要求时清理。
 
-Transform tasks into verifiable goals:
-- "Add validation" → "Write tests for invalid inputs, then make them pass"
-- "Fix the bug" → "Write a test that reproduces it, then make it pass"
-- "Refactor X" → "Ensure tests pass before and after"
+检查每一行改动是否都能直接对应到用户的请求。
 
-For multi-step tasks, state a brief plan:
+## 4. 按可验证的目标推进
+
+**先明确验收标准，再迭代到验证通过。**
+
+把任务转化为可验证的目标。
+
+- “添加校验” → “为无效输入编写测试，再让测试通过”
+- “修复缺陷” → “编写能复现缺陷的测试，再让测试通过”
+- “重构某段代码” → “确认重构前后测试均通过”
+
+任务涉及多个步骤时，简要列出计划和对应的验证方法。
 ```
-1. [Step] → verify: [check]
-2. [Step] → verify: [check]
-3. [Step] → verify: [check]
+1. [步骤] → [如何验证]
+2. [步骤] → [如何验证]
+3. [步骤] → [如何验证]
 ```
 
-Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
+明确的验收标准让你能够自行迭代。像“让它能用”这样模糊的标准，会让你在执行过程中反复请求澄清。
