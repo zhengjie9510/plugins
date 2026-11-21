@@ -11,13 +11,13 @@ The contents are updated based on practical use. Third-party materials retain th
 Add this repository to Claude Code:
 
 ```text
-/plugin marketplace add zhengjie9510/skills
+/plugin marketplace add zhengjie9510/plugins
 ```
 
-Then install the skill packages you need:
+Then install the plugin:
 
 ```text
-/plugin install jason-agent-skills@jason-agent-skills
+/plugin install jason-agent-plugins@jason-agent-plugins
 ```
 
 ## Included Skills

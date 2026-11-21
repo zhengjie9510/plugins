@@ -1,15 +1,15 @@
 {
-  "name": "jason-agent-skills",
-  "description": "Claude Code plugins maintained by zhengjie9510.",
+  "name": "jason-agent-plugins",
+  "description": "A collection of Claude Code plugins curated by zhengjie9510.",
   "owner": {
     "name": "zhengjie9510",
     "url": "https://github.com/zhengjie9510"
   },
   "plugins": [
     {
-      "name": "jason-agent-skills",
+      "name": "jason-agent-plugins",
       "source": "./",
-      "description": "A collection of personal and third-party skills curated by zhengjie9510.",
+      "description": "A collection of Claude Code plugins curated by zhengjie9510.",
       "strict": false,
       "skills": [
         "./skills/zotero",

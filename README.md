@@ -11,13 +11,13 @@
 在 Claude Code 中添加本仓库：
 
 ```text
-/plugin marketplace add zhengjie9510/skills
+/plugin marketplace add zhengjie9510/plugins
 ```
 
-然后按需安装技能包：
+然后安装插件：
 
 ```text
-/plugin install jason-agent-skills@jason-agent-skills
+/plugin install jason-agent-plugins@jason-agent-plugins
 ```
 
 ## 已收录技能
