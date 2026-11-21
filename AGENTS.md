@@ -16,7 +16,7 @@
 
 ### 唯一允许的调用方式
 
-- 安装包：`uv pip install <package>`（ **必须**使用清华源：`--index-url https://pypi.tuna.tsinghua.edu.cn/simple`）
+- 安装包：`uv pip install <package>`
 - 运行脚本：`uv run python script.py`
 - 运行内联代码：`uv run python -c "..."`
 - 其他 Python 操作：`uv run <command>`
@@ -36,3 +36,11 @@
 ## Git 提交
 
 Git 提交必须使用用户本人的身份，禁止任何 AI 署名（包括 Author、Committer 和 Co-Authored-By）。
+
+## 提醒事项
+
+当我说“提醒事项”“提醒我”“添加待办”“查看提醒事项”等类似指令时，默认使用滴答清单（TickTick）插件来创建、查询、修改或完成任务。
+
+不要使用自带的提醒或自动化功能，除非我明确要求使用。
+
+如果滴答清单无法访问，请先告诉我，不要擅自改用其他提醒工具。
