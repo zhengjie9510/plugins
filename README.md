@@ -20,27 +20,15 @@
 /plugin install jason-agent-plugins@jason-agent-plugins
 ```
 
-## 已收录技能
+## 技能与 MCP
 
-| 技能名称 | 说明 |
-| --- | --- |
-| `zotero` | 搜索、阅读、整理和修改 Zotero 文献库 |
-| [`karpathy-guidelines`](https://github.com/multica-ai/andrej-karpathy-skills) | 在编写和修改代码时减少过度设计、无关改动和未经确认的假设 |
+“仓库状态”表示对应内容是否包含在本仓库中；未包含的项目仅作为参考和后续整理的候选来源。
 
-## 已收录 MCP 服务
-
-除技能外，本仓库也会记录和配置日常使用中有价值的 MCP 服务。
-
-| 服务名称 | 说明 |
-| --- | --- |
-| [TickTick MCP](https://help.ticktick.com/articles/7438129581631995904) | 连接滴答清单，用于创建、查询、修改和完成提醒事项与待办任务 |
-
-## 其他技能库
-
-以下项目暂未收录，仅作为参考和后续整理的候选来源。
-
-| 名称 | 说明 |
-| --- | --- |
-| [Anthropic Skills](https://github.com/anthropics/skills) | Anthropic 提供的 Agent Skills 示例与实践 |
-| [Claude Plugins Official](https://github.com/anthropics/claude-plugins-official) | Anthropic 管理的 Claude Code 官方插件目录 |
-| [CesiumJS Skills](https://github.com/CesiumGS/cesiumjs-skills) | 面向 CesiumJS 开发的领域技能库 |
+| 类型 | 名称 | 说明 | 仓库状态 |
+| --- | --- | --- | --- |
+| Skill | `zotero` | 搜索、阅读、整理和修改 Zotero 文献库 | 包含 |
+| Skill | [`karpathy-guidelines`](https://github.com/multica-ai/andrej-karpathy-skills) | 在编写和修改代码时减少过度设计、无关改动和未经确认的假设 | 包含 |
+| MCP | [TickTick MCP](https://help.ticktick.com/articles/7438129581631995904) | 连接滴答清单，用于创建、查询、修改和完成提醒事项与待办任务 | 包含 |
+| Skill | [Anthropic Skills](https://github.com/anthropics/skills) | Anthropic 提供的 Agent Skills 示例与实践 | 不包含 |
+| Skill | [Claude Plugins Official](https://github.com/anthropics/claude-plugins-official) | Anthropic 管理的 Claude Code 官方插件目录 | 不包含 |
+| Skill | [CesiumJS Skills](https://github.com/CesiumGS/cesiumjs-skills) | 面向 CesiumJS 开发的领域技能库 | 不包含 |

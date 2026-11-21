@@ -20,27 +20,15 @@ Then install the plugin:
 /plugin install jason-agent-plugins@jason-agent-plugins
 ```
 
-## Included Skills
+## Skills and MCP Services
 
-| Skill | Description |
-| --- | --- |
-| `zotero` | Search, read, organize, and update a Zotero library |
-| [`karpathy-guidelines`](https://github.com/multica-ai/andrej-karpathy-skills) | Reduce overengineering, unrelated changes, and unchecked assumptions when writing or modifying code |
+The repository status indicates whether the corresponding content is included in this repository. Items that are not included are listed only as references and possible sources for future additions.
 
-## Included MCP Services
-
-In addition to skills, this repository tracks and configures useful MCP services used in everyday workflows.
-
-| Service | Description |
-| --- | --- |
-| [TickTick MCP](https://help.ticktick.com/articles/7438129581631995904) | Connects TickTick to create, query, update, and complete reminders and to-do tasks |
-
-## Other Skill Collections
-
-The following projects are not included in this repository. They are listed as references and possible sources for future additions.
-
-| Name | Description |
-| --- | --- |
-| [Anthropic Skills](https://github.com/anthropics/skills) | Agent Skills examples and practices from Anthropic |
-| [Claude Plugins Official](https://github.com/anthropics/claude-plugins-official) | The official Claude Code plugin directory managed by Anthropic |
-| [CesiumJS Skills](https://github.com/CesiumGS/cesiumjs-skills) | Domain-specific skills for CesiumJS development |
+| Type | Name | Description | Repository Status |
+| --- | --- | --- | --- |
+| Skill | `zotero` | Search, read, organize, and update a Zotero library | Included |
+| Skill | [`karpathy-guidelines`](https://github.com/multica-ai/andrej-karpathy-skills) | Reduce overengineering, unrelated changes, and unchecked assumptions when writing or modifying code | Included |
+| MCP | [TickTick MCP](https://help.ticktick.com/articles/7438129581631995904) | Connects TickTick to create, query, update, and complete reminders and to-do tasks | Included |
+| Skill | [Anthropic Skills](https://github.com/anthropics/skills) | Agent Skills examples and practices from Anthropic | Not included |
+| Skill | [Claude Plugins Official](https://github.com/anthropics/claude-plugins-official) | The official Claude Code plugin directory managed by Anthropic | Not included |
+| Skill | [CesiumJS Skills](https://github.com/CesiumGS/cesiumjs-skills) | Domain-specific skills for CesiumJS development | Not included |
