@@ -29,6 +29,7 @@
 | Skill | `zotero` | 搜索、阅读、整理和修改 Zotero 文献库 | 包含 |
 | Skill | [`karpathy-guidelines`](https://github.com/multica-ai/andrej-karpathy-skills) | 在编写和修改代码时减少过度设计、无关改动和未经确认的假设 | 包含 |
 | MCP | [TickTick MCP](https://help.ticktick.com/articles/7438129581631995904) | 连接滴答清单，用于创建、查询、修改和完成提醒事项与待办任务 | 包含 |
+| MCP | [SSH MCP Server](https://github.com/classfang/ssh-mcp-server) | 通过 MCP 协议远程执行 SSH 命令和传输文件 | 不包含 |
 | Skill | [Anthropic Skills](https://github.com/anthropics/skills) | Anthropic 提供的 Agent Skills 示例与实践 | 不包含 |
 | Skill | [Claude Plugins Official](https://github.com/anthropics/claude-plugins-official) | Anthropic 管理的 Claude Code 官方插件目录 | 不包含 |
 | Skill | [CesiumJS Skills](https://github.com/CesiumGS/cesiumjs-skills) | 面向 CesiumJS 开发的领域技能库 | 不包含 |

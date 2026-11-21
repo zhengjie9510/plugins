@@ -29,6 +29,7 @@ The repository status indicates whether the corresponding content is included in
 | Skill | `zotero` | Search, read, organize, and update a Zotero library | Included |
 | Skill | [`karpathy-guidelines`](https://github.com/multica-ai/andrej-karpathy-skills) | Reduce overengineering, unrelated changes, and unchecked assumptions when writing or modifying code | Included |
 | MCP | [TickTick MCP](https://help.ticktick.com/articles/7438129581631995904) | Connects TickTick to create, query, update, and complete reminders and to-do tasks | Included |
+| MCP | [SSH MCP Server](https://github.com/classfang/ssh-mcp-server) | Executes SSH commands and transfers files remotely through MCP | Not included |
 | Skill | [Anthropic Skills](https://github.com/anthropics/skills) | Agent Skills examples and practices from Anthropic | Not included |
 | Skill | [Claude Plugins Official](https://github.com/anthropics/claude-plugins-official) | The official Claude Code plugin directory managed by Anthropic | Not included |
 | Skill | [CesiumJS Skills](https://github.com/CesiumGS/cesiumjs-skills) | Domain-specific skills for CesiumJS development | Not included |
