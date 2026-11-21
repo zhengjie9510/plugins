@@ -1,10 +1,10 @@
-# Skills
+# Plugins
 
 [简体中文](./README.md) | English
 
-This repository contains skills I have developed and refined through everyday use of AI tools, along with selected practices from the community.
+This repository contains Claude Code plugins I maintain through everyday use of AI tools, including skills, MCP services, and selected practices from the community.
 
-My own skills are updated based on practical use. Third-party skills retain their original authorship, source, and license information. The repository also tracks other skill collections worth reviewing for possible inclusion later.
+The contents are updated based on practical use. Third-party materials retain their original authorship, source, and license information. The repository also tracks other resources worth reviewing for possible inclusion later.
 
 ## Installation
 
@@ -26,6 +26,14 @@ Then install the skill packages you need:
 | --- | --- |
 | `zotero` | Search, read, organize, and update a Zotero library |
 | [`karpathy-guidelines`](https://github.com/multica-ai/andrej-karpathy-skills) | Reduce overengineering, unrelated changes, and unchecked assumptions when writing or modifying code |
+
+## Included MCP Services
+
+In addition to skills, this repository tracks and configures useful MCP services used in everyday workflows.
+
+| Service | Description |
+| --- | --- |
+| [TickTick MCP](https://help.ticktick.com/articles/7438129581631995904) | Connects TickTick to create, query, update, and complete reminders and to-do tasks |
 
 ## Other Skill Collections
 
