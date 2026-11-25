@@ -2,7 +2,7 @@
 
 [简体中文](./README.md) | English
 
-This repository contains Claude Code plugins I maintain through everyday use of AI tools, including skills, MCP services, and selected practices from the community.
+This repository contains Claude Code plugins I maintain through everyday use of AI tools, including skills and selected practices from the community, and records related MCP services and other resources.
 
 The contents are updated based on practical use. Third-party materials retain their original authorship, source, and license information. The repository also tracks other resources worth reviewing for possible inclusion later.
 
@@ -28,7 +28,7 @@ The repository status indicates whether the corresponding content is included in
 | --- | --- | --- | --- |
 | Skill | `zotero` | Search, read, organize, and update a Zotero library | Included |
 | Skill | [`karpathy-guidelines`](https://github.com/multica-ai/andrej-karpathy-skills) | Reduce overengineering, unrelated changes, and unchecked assumptions when writing or modifying code | Included |
-| MCP | [TickTick MCP](https://help.ticktick.com/articles/7438129581631995904) | Connects TickTick to create, query, update, and complete reminders and to-do tasks | Included |
+| MCP | [TickTick MCP](https://help.ticktick.com/articles/7438129581631995904) | Connects TickTick to create, query, update, and complete reminders and to-do tasks | Not included |
 | MCP | [SSH MCP Server](https://github.com/classfang/ssh-mcp-server) | Executes SSH commands and transfers files remotely through MCP | Not included |
 | Skill | [Anthropic Skills](https://github.com/anthropics/skills) | Agent Skills examples and practices from Anthropic | Not included |
 | Skill | [Claude Plugins Official](https://github.com/anthropics/claude-plugins-official) | The official Claude Code plugin directory managed by Anthropic | Not included |

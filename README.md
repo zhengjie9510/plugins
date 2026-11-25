@@ -2,7 +2,7 @@
 
 简体中文 | [English](./README.en.md)
 
-这是我在日常使用 AI 工具的过程中整理和维护的 Claude Code 插件集合，包含技能、MCP 服务以及来自社区的优秀实践。
+这是我在日常使用 AI 工具的过程中整理和维护的 Claude Code 插件集合，包含技能以及来自社区的优秀实践，并记录相关 MCP 服务和其他资源。
 
 仓库中的内容会根据实际使用持续调整；第三方内容会保留原作者、来源和许可证信息。下方还整理了一些值得关注的资源，方便后续查阅和筛选。
 
@@ -28,7 +28,7 @@
 | --- | --- | --- | --- |
 | Skill | `zotero` | 搜索、阅读、整理和修改 Zotero 文献库 | 包含 |
 | Skill | [`karpathy-guidelines`](https://github.com/multica-ai/andrej-karpathy-skills) | 在编写和修改代码时减少过度设计、无关改动和未经确认的假设 | 包含 |
-| MCP | [TickTick MCP](https://help.ticktick.com/articles/7438129581631995904) | 连接滴答清单，用于创建、查询、修改和完成提醒事项与待办任务 | 包含 |
+| MCP | [TickTick MCP](https://help.ticktick.com/articles/7438129581631995904) | 连接滴答清单，用于创建、查询、修改和完成提醒事项与待办任务 | 不包含 |
 | MCP | [SSH MCP Server](https://github.com/classfang/ssh-mcp-server) | 通过 MCP 协议远程执行 SSH 命令和传输文件 | 不包含 |
 | Skill | [Anthropic Skills](https://github.com/anthropics/skills) | Anthropic 提供的 Agent Skills 示例与实践 | 不包含 |
 | Skill | [Claude Plugins Official](https://github.com/anthropics/claude-plugins-official) | Anthropic 管理的 Claude Code 官方插件目录 | 不包含 |
